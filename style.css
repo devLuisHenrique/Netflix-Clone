@@ -1,0 +1,183 @@
+* { 
+  margin: 0;
+  padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.primeiraimpressao{
+    display: flex;
+    border-bottom: 8px solid #222;
+}
+.logopequena{
+    display: flex;
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 56px;
+}
+.divbotao{
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    top: 28px;
+    left: 0;
+    right: 56px;
+    height: 50px;
+    align-content: space-around;
+    justify-content: right;
+    border: none;
+}
+.botaoentrar{
+    display:flex;
+    position: absolute;
+    background-color: #e50914;
+    color: white;
+    padding: 7px 17px;
+    font-size: 16px;
+    border: none;
+}
+.linguagem{
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    top: 28px;
+    left: 0;
+    right: 165px;
+    height: 35px;
+    align-content: space-around;
+    justify-content: right;
+    border: none;
+}
+select{
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    border-color: white;
+}
+option{
+    color: white;
+    background-color: gray;
+    opacity: 0;
+}
+.email{
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    top: 466px;
+    left: 0;
+    right: 166px;
+    height: 60px;
+    align-content: space-around;
+    justify-content: center;
+    border: none;
+}
+.mail{
+    width: 430px;
+}
+.text1{
+    display: flex;
+    margin-left: 370px;
+    margin-top: 234px;
+    max-width: 640px;
+    font-size: 3.125rem;
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.botaovamosla{
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    top: 466px;
+    left: 810px;
+    height: 60px;
+    justify-content: center;
+}
+.vamosla{
+    background-color: #e50914;
+    color: white;
+    border: none;
+    font-size: 26px;
+    width: 184px;
+}
+.divisao2{
+    display: flex;
+    position: relative;
+    flex-direction: row-reverse;
+    background-color: black;
+    border-bottom: 8px solid #222;
+    padding-top: 74px;
+}
+.tv{
+    position: relative;
+    padding-bottom: 50px;
+    padding-right: 96px;
+    z-index: 1;
+}
+.video{
+    display: flex;
+    position: absolute;
+    padding-top: 82px;
+    padding-right: 170px;
+}
+.divisao3{
+    display: flex;
+    background-color: black;
+    border-bottom: 8px solid #222;
+    padding-top: 30px;
+}
+.btmobile{
+    display: flex;
+    background-color: black;
+    border: 2px solid hsla(0,0%,100%,.25);
+    border-radius: 0.75em;
+    width: 330px;
+    height: 90px;
+    position: absolute;
+    margin-left: 138px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 250px;
+}
+.film{
+    padding-left: 12px;
+}
+.down{
+    padding-right: 10px;
+}
+.mobile{
+    padding-bottom: 60px;
+    padding-left: 60px;
+}
+.divisao4{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: black;
+    border-bottom: 8px solid #222;
+    padding-top: 44px;
+}
+.apple{
+    padding-bottom: 75px;
+    padding-right: 73px;
+    z-index: 1;
+}
+.vtapple{
+    display: flex;
+    position: absolute;
+    padding-top: 47px;
+    padding-right: 170px;   
+}
+.divisao5{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    border-bottom: 8px solid #222;
+    padding-top: 74px;
+    padding-left: 60px;
+}
+.kids{
+    padding-bottom: 66px;
+    padding-left: 66px;
+}
