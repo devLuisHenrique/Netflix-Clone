@@ -9,12 +9,14 @@ body{
 .primeiraimpressao{
     display: flex;
     border-bottom: 8px solid #222;
+    justify-content: center;
 }
 .logopequena{
     display: flex;
     position: absolute;
     margin-top: 28px;
-    margin-left: 56px;
+    margin-right: 1100px;
+    z-index: 1;
 }
 .divbotao{
     display: flex;
@@ -36,6 +38,8 @@ body{
     padding: 7px 17px;
     font-size: 16px;
     border: none;
+    margin-top: 2px;
+    z-index: 1;
 }
 .linguagem{
     display: flex;
@@ -48,6 +52,7 @@ body{
     align-content: space-around;
     justify-content: right;
     border: none;
+    z-index: 1;
 }
 select{
     background: transparent;
@@ -71,21 +76,100 @@ option{
     align-content: space-around;
     justify-content: center;
     border: none;
+    z-index: 1;
 }
 .mail{
     width: 430px;
 }
+
+#gradiente{
+    position: absolute;
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+    width: 100%;
+    height: 100%;
+}
+
 .text1{
     display: flex;
-    margin-left: 370px;
-    margin-top: 234px;
-    max-width: 640px;
+    font-weight: bold;
+    margin-top: 232px;
+    max-width: 670px;
     font-size: 3.125rem;
     color: white;
     position: absolute;
     text-align: center;
     font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
+
+#text2{
+    display: flex;
+    margin-top: 364px;
+    max-width: 670px;
+    font-size: 1.625rem;
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#text3{
+    display: flex;
+    margin-top: 424px;
+    max-width: 670px;
+    font-size: 1.125rem;
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#text4{
+    display: flex;
+    font-weight: bold;
+    margin-right: 838px;
+    margin-top: 120px;
+    font-size: 3.125rem;
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#text5{
+    display: flex;
+    font-size: 1.625rem;
+    margin-right: 696px;
+    margin-top: 200px;
+    text-align: left;
+    color: white;
+    position: absolute;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#text6{
+    display: flex;
+    font-weight: bold;
+    margin-left: 680px;
+    margin-top: 90px;
+    font-size: 3.125rem;
+    color: white;
+    position: absolute;
+    text-align: left;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#text7{
+    display: flex;
+    font-size: 1.625rem;
+    margin-left: 681px;
+    margin-top: 230px;
+    text-align: left;
+    color: white;
+    position: absolute;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
 .botaovamosla{
     display: flex;
     flex-direction: row-reverse;
@@ -94,6 +178,7 @@ option{
     left: 810px;
     height: 60px;
     justify-content: center;
+    z-index: 1;
 }
 .vamosla{
     background-color: #e50914;
@@ -108,19 +193,19 @@ option{
     flex-direction: row-reverse;
     background-color: black;
     border-bottom: 8px solid #222;
-    padding-top: 74px;
+    height: 470px;
 }
 .tv{
-    position: relative;
-    padding-bottom: 50px;
-    padding-right: 96px;
+    position: absolute;
     z-index: 1;
+    margin-right: 96px;
+
 }
 .video{
     display: flex;
     position: absolute;
-    padding-top: 82px;
-    padding-right: 170px;
+    margin-top: 82px;
+    margin-right: 170px;
 }
 .divisao3{
     display: flex;
@@ -180,4 +265,42 @@ option{
 .kids{
     padding-bottom: 66px;
     padding-left: 66px;
+}
+
+.divisao6{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    border-bottom: 8px solid #222;
+    padding-top: 74px;
+    padding-left: 60px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btndivisao6{
+    display: flex;
+    background-color: #303030;
+    color: white;
+    border: solid black 1px;
+    width: 826px;
+    height: 78px;
+    font-size: 26px;
+    text-align: left;
+    text-indent: 35px;
+    align-items: center;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.ocult{
+    display: none;
+    background-color: #303030;
+    color: white;
+    font-size: 26px;
+    width: 824px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
