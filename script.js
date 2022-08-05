@@ -45,3 +45,12 @@ function esconder6(){
     }else
         document.getElementById("ocult6").style.display = "none";
 }
+
+function traduzir1(){
+    var eng = document.getElementById("eng1").style.display;
+    if(eng == "none"){
+        document.getElementById("eng1").style.display = "flex";
+        document.getElementById("pt1").style.display = "none";
+    }else
+        document.getElementById("eng1").style.display = "none";    
+}

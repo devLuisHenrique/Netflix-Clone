@@ -14,9 +14,9 @@
          <form action="#" method="post">
             <div class="linguagem">
                 <label for="linguagem"></label>
-                <select name="linguagem" id="linguagem">
+                <select onchange="traduzir1(this)" name="linguagem" id="linguagem">
                     <option class="op1" value="1">Português</option>
-                    <option value="1">English</option>
+                    <option value="0">English</option>
                 </select>
             </div>  
         </form>
@@ -25,7 +25,8 @@
         </label>
         <div class="botaovamosla"><button class="vamosla">Vamos lá ></button></div>
         <div id="gradiente"></div>
-        <text class="text1">Filmes, séries e muito mais. Sem limites.</text>
+        <text class="text1en" id="eng1">Unlimited movies, TV shows, and more.</text>
+        <text class="text1" id="pt1">Filmes, séries e muito mais. Sem limites.</text>
         <text id="text2">Assista onde quiser. Cancele quando quiser.</text>
         <text id="text3">Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</text> 
     </div>
@@ -45,11 +46,16 @@
     </div>
     <div class="divisao4">
         <img class="apple" src="apple.png" height="420px"><video width="358px" class="vtapple" autoplay playsinline muted loop><source src="video-devices.m4v"></video>
+        <text id="text8">Assista quando<br> quiser.</text>
+        <text id="text9">Assista no celular, tablet, Smart TV ou<br> notebook sem pagar a mais por isso.</text>
     </div>
     <div class="divisao5">
         <img height="380px" class="kids" src="kids.png">
+        <text id="text10">Crie perfis para<br> crianças.</text>
+        <tex id="text11">Deixe as crianças se aventurarem com seus<br> personagens favoritos em um espaço feito só<br> para elas, sem pagar a mais por isso.</tex>
     </div>
     <div class="divisao6">
+        <text class="texto12" id="text12">Perguntas frequentes</text>
         <button onclick="esconder1()" class="btndivisao6">O que é a Netflix?</button>
         <text class="ocult" id="ocult1">
             <br>
@@ -105,7 +111,15 @@
             <br> conteúdo que as crianças podem ver e bloquear títulos
             <br> específicos que você não quer que elas assistam.<br><br>
         </text>
+        <text id="text13">Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</text>
+        <div id="containerdivisao6">
+            <label class="email2">
+                <input class="mail2">
+            </label>
+            <div class="botaovamosla2"><button class="vamosla2">Vamos lá ></button></div>
+        </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
