@@ -91,7 +91,7 @@ option{
     height: 100%;
 }
 
-.text1en{
+#eng1{
     display: none;
     font-weight: bold;
     margin-top: 232px;
@@ -115,7 +115,7 @@ option{
     font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
-#text2{
+#pt2{
     display: flex;
     margin-top: 364px;
     max-width: 670px;
@@ -126,8 +126,31 @@ option{
     font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
-#text3{
+#eng2{
+    display: none;
+    margin-top: 364px;
+    max-width: 670px;
+    font-size: 1.625rem;
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+
+#pt3{
     display: flex;
+    margin-top: 424px;
+    max-width: 670px;
+    font-size: 1.125rem;
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#eng3{
+    display: none;
     margin-top: 424px;
     max-width: 670px;
     font-size: 1.125rem;

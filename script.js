@@ -47,10 +47,28 @@ function esconder6(){
 }
 
 function traduzir1(){
-    var eng = document.getElementById("eng1").style.display;
-    if(eng == "none"){
+    let select = document.querySelector('#linguagem');
+
+    let value = select.options[select.selectedIndex];
+
+    let tdz = document.querySelector(".text2");
+
+    if(select.options[select.selectedIndex].value == 2){
         document.getElementById("eng1").style.display = "flex";
         document.getElementById("pt1").style.display = "none";
-    }else
-        document.getElementById("eng1").style.display = "none";    
+        document.getElementById("eng2").style.display = "flex";
+        document.getElementById("pt2").style.display = "none";
+        document.getElementById("eng3").style.display = "flex";
+        document.getElementById("pt3").style.display = "none";
+        
+    }if (select.options[select.selectedIndex].value == 1) {
+        document.getElementById("pt1").style.display = "flex";
+        document.getElementById("eng1").style.display = "none";
+        document.getElementById("pt2").style.display = "flex";
+        document.getElementById("eng2").style.display = "none";
+        document.getElementById("pt3").style.display = "flex";
+        document.getElementById("eng3").style.display = "none";
+
+    }
+          
 }
